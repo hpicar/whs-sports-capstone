@@ -1,0 +1,29 @@
+html {
+    background-color: #112c47;
+}
+
+img {
+    max-width: 100%;
+    border: 2px solid #ffffff;
+    align-content: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Graduate', cursive;
+    text-align: center;
+    font-size: 6vh;;
+}
+
+p {
+    font-size: 3vh;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    align-self: center;
+}
