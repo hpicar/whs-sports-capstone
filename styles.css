@@ -14,20 +14,13 @@ h1 {
     font-size: 6vh;;
 }
 
-p {
-    font-size: 3.5vh;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.image, .button {
+.image {
     display: flex;
     justify-content: center;
 }
 
-button {
+.quote {
+    display: flex;
+    justify-content: center;
     margin-top: 3vh;
-    height: 10vh;
-    width: 30vw;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 3.5vh;;
 }
