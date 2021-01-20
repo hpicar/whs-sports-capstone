@@ -2,11 +2,6 @@ html {
     background-color: #162c42;
 }
 
-img {
-    max-width: 100%;
-    align-content: center;
-}
-
 h1 {
     color: #d29d03;
     font-family: 'Changa One', cursive;
@@ -21,14 +16,25 @@ h2, p {
 }
 
 .image {
-    padding-top: 5%;
     display: flex;
-    justify-content: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
 }
 
-.quote {
-    padding-top: 5%;
-    display: flex;
-    justify-content: center;
-    margin-top: 3vh;
+.red {
+    width: 300px;
+    height: 275px;
+    background-color: red;
+}
+
+.green {
+    width: 300px;
+    height: 275px;
+    background-color: green;
+}
+
+.bottom-bar {
+    height: 150px;
+    width: 375px;
 }
