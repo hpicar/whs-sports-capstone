@@ -41,7 +41,36 @@ h2, p {
     margin-right: auto;
 }
 
-.bottom-bar {
-    height: 150px;
-    width: 375px;
+#bottom-bar {
+    background-color: #d29d03;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-top: solid;
+    border-color: white;
+    border-width: 1vh;
+}
+
+.icon {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iconbox {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+#iconbox1 {
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
 }
