@@ -15,16 +15,22 @@ h2, p {
     text-align: center;
 }
 
-.image {
-    display: flex;
-    align-content: center;
-    height: 100px;
-    width: 100px;
+#image {
+    height: 15vh;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sport {
     float: left;
-    width: 50%;
+    height: 25vh;
+    width: 40vw;
+    background-color: #c21d1d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
