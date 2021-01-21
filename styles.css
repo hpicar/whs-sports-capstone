@@ -26,9 +26,14 @@ h2, p {
     justify-content: center;
 }
 
-.quote {
-    padding-top: 5%;
-    display: flex;
-    justify-content: center;
-    margin-top: 3vh;
+.button {
+    height: 10vh;
+    width: 35vw;
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #d29d03;
 }
