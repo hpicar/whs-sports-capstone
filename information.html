@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WHS Sports - My Sports</title>
+    <title>WHS Sports - Information</title>
     <!--Allows the code to adjust depending on the device's size-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="information.css">
@@ -14,34 +14,73 @@
 
 <body>
     <h1>Information</h1>
+    
     <div>
         <h2>Fall Sports</h2>
+        <!--One row of 2 sports-->
+        <div class="row">
+            <div class="sport" onclick="window.location.href = 'InfoSoftball.html';">
+                <h3>Air Riflery</h3>
+                <img id="image" src="images/soccer.jpg">
+            </div>
+            <div class="sport">
+                <h3>Bowling</h3>
+                <img id="image" src="images/soccer.jpg">
+            </div>
+        </div>
+
+        <!--Creates space between the rows-->
+        <br>
+        
         <div class="row">
             <div class="sport">
                 <h3>Air Riflery</h3>
                 <img id="image" src="images/soccer.jpg">
             </div>
-
             <div class="sport">
                 <h3>Bowling</h3>
                 <img id="image" src="images/soccer.jpg">
             </div>
         </div>
     </div>
+
     <div>
         <h2>Winter Sports</h2>
-        <div>
-            <h3>Baseball, Junior Varsity</h3>
-        </div>
-        <div>
-            <h3>Basketball, Boys</h3>
+        <div class="row">
+            <div class="sport">
+                <h3>Air Riflery</h3>
+                <img id="image" src="images/soccer.jpg">
+            </div>
+            <div class="sport">
+                <h3>Bowling</h3>
+                <img id="image" src="images/soccer.jpg">
+            </div>
         </div>
     </div>
+
     <div>
         <h2>Spring Sports</h2>
-        <div>
-            <h3>Baseball, Varsity</h3>
-            <h3>Golf</h3>
+        <div class="row">
+            <div class="sport">
+                <h3>Air Riflery</h3>
+                <img id="image" src="images/soccer.jpg">
+            </div>
+            <div class="sport">
+                <h3>Bowling</h3>
+                <img id="image" src="images/soccer.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom-bar">
+        <div id="iconbox1" style="cursor: pointer;" onclick="history.back()">
+            <img class="icon" src="images/back.png">
+        </div>
+        <div class="iconbox" style="cursor: pointer;" onclick="window.location='mySports.html';">
+            <img class="icon" src="images/home.png"> 
+        </div>
+        <div class="iconbox" style="cursor: pointer;" onclick="window.location='information.html';"> 
+            <img class="icon" src="images/about.png">
         </div>
     </div>
 </body>
