@@ -26,19 +26,21 @@ h2, p {
 .red {
     height: 35vh;
     width: 80vw;
-    background-color: #c21d1d;
+    background-color: #b62b2b;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid white;
 }
 
 .green {
     height: 35vh;
     width: 80vw;
-    background-color: #168607;
+    background-color: #0d8a41;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid white;
 }
 
 #bottom-bar {

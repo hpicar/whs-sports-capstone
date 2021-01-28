@@ -3,25 +3,46 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WHS Sports - My Sports</title>
+    <title>WHS Sports - Soccer Information</title>
     <!--Allows the code to adjust depending on the device's size-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="mySports.css">
+    <link rel="stylesheet" type="text/css" href="InfoSoccer.css">
     <!--Fonts from Google-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>My Sports</h1>
-    <div class="red" style="cursor: pointer;" onclick="window.location='daysSoftball.html';">
-        <h2>Girl's Softball</h2>
-        <img id="image" src="images/softball.png">
+    <h1>Girl's Soccer</h1>
+
+    <div class="schedule">
+        <h2>Schedule</h2>
+        <ul>
+            <li>Tryouts</li>
+            <li>Times</li>
+        </ul>
     </div>
-    <div class="green" style="cursor: pointer;" onclick="window.location='daysSoccer.html';">
-        <h2>Girl's Soccer</h2>
-        <img id="image" src="images/soccer.png">
+
+    <div class="required">
+        <h2 id="title">Required Items</h2>
+        <ul>
+            <li>Water/Water Bottles</li>
+            <li>Softball Bat</li>
+            <li>Softball Glove</li>
+            <li>Softball Pants</li>
+            <li>Helmet</li>
+            <li>Ball</li>
+            <li>Cleats</li>
+            <li>Knee High Socks</li>
+        </ul>
     </div>
+
+    <div class="info">
+        <h2>Coach's Information</h2>
+        <p>Name: Brent Murakami</p>
+        <p>Email: Brent.Murakami@k12.hi.us</p>
+    </div>
+
     <div id="bottom-bar">
         <div id="iconbox1" style="cursor: pointer;" onclick="history.back()">
             <img class="icon" src="images/back.png">
