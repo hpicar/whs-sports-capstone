@@ -1,0 +1,96 @@
+html {
+    background-color: #162c42;
+}
+
+h1 {
+    color: #d29d03;
+    font-family: 'Changa One', cursive;
+    text-align: center;
+    font-size: 6vh;;
+    border: solid;
+    border-color: white;
+    border-width: 1vh;
+}
+
+h2, p, h3 {
+    font-family: 'Open Sans', cursive;
+    color: #162c42;
+    text-align: center;
+}
+
+#bottom-bar {
+    background-color: #d29d03;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-top: solid;
+    border-color: white;
+    border-width: 1vh;
+}
+
+.icon {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iconbox {
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+#iconbox1 {
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+#wupButton {
+    height: 7.5vh;
+    width: 90%;
+    background-color: #d29d03;
+    display: block;
+    margin: auto;
+    padding: 0;
+    border: solid;
+    border-color: white;
+    border-width: 1vh;
+    margin-bottom: 5%;
+}
+
+#days-grid {
+    height: 145%;
+    width: 100%;
+}
+
+.box1 {
+    height: 10%;
+    width: 30%;
+    background-color: #d29d03;
+    float: left;
+    margin-bottom: 5%;
+    border-radius: 15%;
+}
+
+.box {
+    height: 10%;
+    width: 30%;
+    background-color: #d29d03;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 15%;
+}
+
+#lastRow {
+    margin-bottom: 10%;
+    height: 10%;
+    width: 30%;
+}
