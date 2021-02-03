@@ -14,15 +14,16 @@
 <body>
     <h1>Workouts - Softball</h1>
 <div>
-    <h2>1 of 2</h2>
+    <h2>2 of 2</h2>
     <div>
         <h2 id="one">15:00</h2>
         <button class="button" onclick="clock(); document.getElementById('one').innerHTML='15:00';" id="buttontimer">Start Timer</button>
     </div>
-    <img class="workout" src="images/BallWall.gif">
-    <h2> Throwing at a Wall</h2>
+    <img class="workout" src="images/ThrowBall.gif">
+    <img class="workout" src="images/HitBall.gif">
+    <h2> Hitting and Throwing a Ball</h2>
     <div>
-        <button class="button" id="next" onclick="window.location.href = 'workoutsSoftball2.html';">Next Workout!</button>
+        <button class="button" id="next" onclick="window.location.href = 'mySports.html';">Next Workout!</button>
     </div>
 </div>
 
@@ -36,6 +37,10 @@
     <div class="iconbox" style="cursor: pointer;" onclick="window.location='information.html';"> 
         <img class="icon" src="images/about.png">
     </div>
+    <div id="lastRow">
+        <h3>placeholder</h3>
+    </div>
+    
 
 <script>
     var myTimer;
