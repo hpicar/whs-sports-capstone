@@ -13,60 +13,62 @@
 </head>
 <body>
     <h1>Workouts - Softball</h1>
-<div>
     <h2>2 of 2</h2>
     <div>
-        <h2 id="one">15:00</h2>
-        <button class="button" onclick="clock(); document.getElementById('one').innerHTML='15:00';" id="buttontimer">Start Timer</button>
+        <div>
+            <h2 id="one">15:00</h2>
+            <button class="button" onclick="clock(); document.getElementById('one').innerHTML='15:00';" id="buttontimer">Start Timer</button>
+            <script>
+                var myTimer;
+            function clock() {
+            myTimer = setInterval(myClock, 1000);
+            var c = 900;
+            function myClock() {
+                var min = Math.floor(c / 60);
+                var sec = c % 60;
+                n = zero(sec);
+                function zero(n) {
+            if (n < 10) {
+                return n = "0" + n;
+            }
+            else {
+            return n = n;
+            }
+            }
+                document.getElementById("one").innerHTML = min + ":" + n;
+                --c;
+                if (c == 0) {
+                clearInterval(myTimer);
+                document.getElementById("one").innerHTML = "0:00"
+            }
+            }
+            }   
+            </script>
+        </div>
+        <img class="workout" src="images/ThrowBall.gif">
+        <img class="workout" src="images/HitBall.gif">
+        <h2> Hitting and Throwing a Ball</h2>
+        <div>
+            <button class="button" id="next" onclick="window.location.href = 'mySports.html';">Next Workout!</button>
+        </div>
     </div>
-    <img class="workout" src="images/ThrowBall.gif">
-    <img class="workout" src="images/HitBall.gif">
-    <h2> Hitting and Throwing a Ball</h2>
-    <div>
-        <button class="button" id="next" onclick="window.location.href = 'mySports.html';">Next Workout!</button>
-    </div>
-</div>
+    <br>
+    <br>
+    <br>
 
-<div id="bottom-bar">
-    <div id="iconbox1" style="cursor: pointer;" onclick="history.back()">
-        <img class="icon" src="images/back.png">
+    <div id="bottom-bar">
+        <div id="iconbox1" style="cursor: pointer;" onclick="history.back()">
+            <img class="icon" src="images/back.png">
+        </div>
+        <div class="iconbox" style="cursor: pointer;" onclick="window.location='mySports.html';">
+            <img class="icon" src="images/home.png"> 
+        </div>
+        <div class="iconbox" style="cursor: pointer;" onclick="window.location='information.html';"> 
+            <img class="icon" src="images/about.png">
+        </div>
+        <div id="lastRow">
+            <h3>placeholder</h3>
+        </div>
     </div>
-    <div class="iconbox" style="cursor: pointer;" onclick="window.location='mySports.html';">
-        <img class="icon" src="images/home.png"> 
-    </div>
-    <div class="iconbox" style="cursor: pointer;" onclick="window.location='information.html';"> 
-        <img class="icon" src="images/about.png">
-    </div>
-    <div id="lastRow">
-        <h3>placeholder</h3>
-    </div>
-    
-
-<script>
-    var myTimer;
-function clock() {
-  myTimer = setInterval(myClock, 1000);
-  var c = 900;
-  function myClock() {
-    var min = Math.floor(c / 60);
-    var sec = c % 60;
-    n = zero(sec);
-    function zero(n) {
-if (n < 10) {
-	return n = "0" + n;
-   }
-else {
-  return n = n;
-}
-}
-    document.getElementById("one").innerHTML = min + ":" + n;
-    --c;
-    if (c == 0) {
-      clearInterval(myTimer);
-      document.getElementById("one").innerHTML = "0:00"
-  }
-}
-}   
-</script>
-
-</div>
+</body>
+</html>

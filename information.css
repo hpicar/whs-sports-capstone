@@ -1,5 +1,5 @@
 html {
-    background-color: #FFFFFF;
+    background-color: #162c42;
 }
 
 h1 {
@@ -9,7 +9,13 @@ h1 {
     font-size: 6vh;;
 }
 
-h2, p, h3 {
+h2 {
+    font-family: 'Open Sans', cursive;
+    color: white;
+    text-align: center;
+}
+
+h3, p {
     font-family: 'Open Sans', cursive;
     color: #162c42;
     text-align: center;
@@ -35,9 +41,10 @@ h2, p, h3 {
 
 .row {
     display: flex;
-  }
+}
 
-  #bottom-bar {
+  
+#bottom-bar {
     background-color: #d29d03;
     overflow: hidden;
     position: fixed;

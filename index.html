@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>WHS Sports - Title</title>
+    <title>WHS Sports</title>
     <!--Allows the code to adjust depending on the device's size-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -19,6 +19,36 @@
     </div>
     <div>
         <button class= "button" onclick="window.location.href = 'mySports.html';">Start!</button>
+    </div>
+    <div class="quote">
+        <h2 id="header"></h2>
+        <p id="quote"></p>
+        <script>
+            var x = Math.floor(Math.random() * 4);
+            var header = "";
+            var message = "";
+
+            switch(x) {
+                case 0:
+                    header = "Tip of the Day:"
+                    message = "Remember to drink a lot of water!"
+                    break;
+                case 1:
+                    header = "Tip of the Day:"
+                    message = "Pay attention to what your body is telling you!"
+                break;
+                case 2:
+                    header = "Quote of the Day:"
+                    message = "Hard work beats talent when talent doesn’t work hard. – Tim Notke";
+                    break;
+                case 3:
+                    header = "Quote of the Day:"
+                    message = "If you fail to prepare, you’re prepared to fail. – Mark Spitz";
+                    break;
+            }
+            document.getElementById("header").innerHTML = header;
+            document.getElementById("quote").innerHTML = message;
+        </script>
     </div>
 </body>
 

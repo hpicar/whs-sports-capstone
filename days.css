@@ -7,9 +7,6 @@ h1 {
     font-family: 'Changa One', cursive;
     text-align: center;
     font-size: 6vh;;
-    border: solid;
-    border-color: white;
-    border-width: 1vh;
 }
 
 h2, p, h3 {
@@ -53,15 +50,12 @@ h2, p, h3 {
 }
 
 #wupButton {
-    height: 7.5vh;
+    height: 5vh;
     width: 90%;
     background-color: #d29d03;
     display: block;
     margin: auto;
     padding: 0;
-    border: solid;
-    border-color: white;
-    border-width: 1vh;
     margin-bottom: 5%;
 }
 
